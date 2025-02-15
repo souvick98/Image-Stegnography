@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0A192F; /* Deep Navy Blue */
+    color: #CCD6F6; /* Light Blue Text */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #112240; /* Dark Blue Card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(100, 255, 218, 0.3); /* Neon Cyan Glow */
+}
+
+/* Aligns input fields properly */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #64FFDA; /* Neon Cyan */
+}
+
+/* Input fields with same width */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #64FFDA;
+    border-radius: 5px;
+    background: #233554;
+    color: #64FFDA;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00FFA3;
+    box-shadow: 0 0 5px rgba(0, 255, 163, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00FFA3; /* Neon Green */
+    cursor: pointer;
+    font-weight: bold;
+    color: #0A192F;
+    box-shadow: 0 0 10px rgba(0, 255, 163, 0.5);
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00C87C; /* Darker Neon Green */
+    box-shadow: 0 0 15px rgba(0, 255, 163, 0.8);
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    margin: 10px auto;
+    background: #00FFA3; /* Neon Green */
+    color: #0A192F; /* Dark Contrast */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 255, 163, 0.5); /* Glow Effect */
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #00C87C; /* Darker Neon Green */
+    box-shadow: 0 0 15px rgba(0, 255, 163, 0.8);
+}
+
+.decrypted-message {
+    background: rgb(240, 203, 40);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 5px #00FFA3;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #CCD6F6; /* Light Blue */
+}
+
+footer a {
+    color: #64FFDA; /* Neon Cyan */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #00FFA3; /* Bright Green */
+}

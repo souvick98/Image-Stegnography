@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt Message</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Decrypt Message</h1>
+        <form action="/decrypt" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="image">Select Image:</label>
+                <input type="file" name="image" id="image" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter password" required>
+            </div>
+            <button type="submit">Decrypt</button>
+        </form>
+
+        {% if message %}
+            <p class="decrypted-message">Decrypted Message: <strong>{{ message }}</strong></p>
+        {% endif %}
+
+        <br>
+        <a href="/" class="button">Back to Home</a>
+    </div>
+</body>
+</html>
