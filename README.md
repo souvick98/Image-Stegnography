@@ -49,11 +49,7 @@ This project implements **image steganography** to securely hide text messages w
 - 🛠 **Visual Studio Code & IDLE** – Development environments.
 - 🏗 **GitHub** – Version control and collaboration.
 
-## 👨‍💻 Contributors
-
-- Souvick Das
-
 ---
+🚀 **Developed with ❤️ by [Souvick Das](https://github.com/souvick98)**
 
-## 🚀 Developed with **❤️** by **Souvick Das**
 
