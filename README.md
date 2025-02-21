@@ -55,5 +55,5 @@ This project implements **image steganography** to securely hide text messages w
 
 ---
 
-🚀 \*\*Developed with ❤️ by \*\***Souvick Das**\*\*
+## 🚀 Developed with **❤️** by **Souvick Das**
 
